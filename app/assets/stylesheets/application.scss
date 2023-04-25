@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700;900&family=Sora:wght@400;700&display=swap');
+@import "./top_page";
+:root {
+    --primary: #0d6efd;
+    --dark: #21252f;
+    --body: #888;
+    /* --orange: rgb(221, 155, 94); */
+    --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.2);
+    --bg: #e0e0e0;
+}
+
+body {
+    font-family: Sora, 'sans-serif';
+    line-height: 1.7;
+    color: #888;
+    background-color: #e0e0e0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
