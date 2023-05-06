@@ -61,6 +61,10 @@
             object-fit: cover;
         }
     }
+    // ! スマホのレスポンシブ対応
+    @media(max-width:468px) {
+        margin-top: 10px;
+    }
 }
 
 .card-effect:hover {
@@ -120,6 +124,17 @@
     padding-top: 120px;
     padding-bottom: 120px;
     background-color: #ffffff;
+    .company-about {
+        padding-left: 60px;
+        // ! タブレットのレスポンシブ対応
+        @media(max-width: 768px) {
+            padding: 0 20px;
+        }
+        // ! スマホのレスポンシブ対応
+        @media(max-width: 468px) {
+            padding: 0 20px;
+        }
+    }
 }
 
 .col-img {
