@@ -16,7 +16,34 @@ body {
     background-color: #e0e0e0;
 }
 
+#header {
+    .company {
+        font-size: 23px;
+    }
+}
+
 a {
     color: white;
     text-decoration: none;
+}
+
+// ! タブレットのレスポンシブ対応
+@media(max-width:768px) {
+    #header {
+        .contact-btn {
+            margin-top: 40px;
+        }
+    }
+}
+
+// ! スマホのレスポンシブ対応
+@media(max-width:468px) {
+    #header {
+        .company {
+            font-size: 20px;
+        }
+        .contact-btn {
+            margin-top: 20px;
+        }
+    }
 }
