@@ -19,4 +19,8 @@ class PagesController < ApplicationController
   # * 重山のプロフィールページ
   def shigeyama_page
   end
+
+  # * 山本のプロフィールページ
+  def yamamoto_page
+  end
 end
