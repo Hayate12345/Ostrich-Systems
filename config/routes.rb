@@ -9,4 +9,6 @@ Rails.application.routes.draw do
   get "/takenaka", to: "pages#takenaka_page"
   # * 矢田のプロフィールページ
   get "/yata", to: "pages#yata_page"
+  # * 重山のプロフィールページ
+  get "/shigeyama", to: "pages#shigeyama_page"
 end
