@@ -1,0 +1,18 @@
+#member_page {
+    border-radius: 10px;
+    .member_content {
+        padding: 80px 70px;
+    }
+    // ! タブレットのレスポンシブ対応
+    @media(max-width: 768px) {
+        .member_content {
+            padding: 40px 30px;
+        }
+    }
+    // ! スマホのレスポンシブ対応
+    @media(max-width: 468px) {
+        .member_content {
+            padding: 20px 10px;
+        }
+    }
+}
