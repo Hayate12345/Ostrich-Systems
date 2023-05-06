@@ -3,7 +3,8 @@ class PagesController < ApplicationController
   def top_page
   end
 
-  # ! 竹田のページ
+  # ! プロフィールページ
+  # * 竹田のプロフィールページ
   def takeda_page
   end
 end
