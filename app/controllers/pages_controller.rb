@@ -8,7 +8,11 @@ class PagesController < ApplicationController
   def takeda_page
   end
 
-   # * 竹中のプロフィールページ
-   def takenaka_page
-   end
+  # * 竹中のプロフィールページ
+  def takenaka_page
+  end
+
+  # * 矢田のプロフィールページ
+  def yata_page
+  end
 end
