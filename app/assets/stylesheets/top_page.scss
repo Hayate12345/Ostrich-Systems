@@ -54,6 +54,13 @@
         height: 380px;
         object-fit: cover;
     }
+    // ! タブレットのレスポンシブ対応
+    @media(max-width:768px) {
+        img {
+            height: 280px;
+            object-fit: cover;
+        }
+    }
 }
 
 .card-effect:hover {
