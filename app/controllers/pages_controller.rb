@@ -7,4 +7,8 @@ class PagesController < ApplicationController
   # * 竹田のプロフィールページ
   def takeda_page
   end
+
+   # * 竹中のプロフィールページ
+   def takenaka_page
+   end
 end

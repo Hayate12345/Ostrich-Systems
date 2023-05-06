@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   # ! メンバーのプロフィールページ
   # * 竹田のプロフィールページ
   get "/takeda", to: "pages#takeda_page"
+  # * 竹中のプロフィールページ
+  get "/takenaka", to: "pages#takenaka_page"
 end
