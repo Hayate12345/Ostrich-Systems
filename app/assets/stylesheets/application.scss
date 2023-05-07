@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700;900&family=Sora:wght@400;700&display=swap');
 @import "./top_page";
 @import "./teams_page";
+@import "./service";
 :root {
     --primary: #0d6efd;
     --dark: #21252f;
@@ -26,6 +27,20 @@ body {
 a {
     color: white;
     text-decoration: none;
+}
+
+.footer-top {
+    padding-bottom: 90px;
+    padding: 90px;
+    background-color: var(--dark);
+}
+
+.footer-top a {
+    color: var(--body);
+}
+
+.footer-top a:hover {
+    color: #fff;
 }
 
 // ! タブレットのレスポンシブ対応

@@ -3,6 +3,43 @@
     .member_content {
         padding: 80px 70px;
     }
+    .team-member {
+        border-radius: 10px;
+        background-color: #ffffff;
+        padding: 20px 10px;
+        img {
+            width: 125px;
+            height: 125px;
+            border-radius: 100px;
+            object-fit: cover;
+        }
+        img:hover {
+            transform: scale(1.1);
+            transition-duration: 0.2s;
+        }
+    }
+    .social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a {
+            width: 34px;
+            height: 34px;
+            background-color: var(--primary);
+            border: 2px solid var(--primary);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px;
+            margin-left: 5px;
+            transition: all 0.4s ease;
+        }
+        a:hover {
+            color: var(--primary);
+            background-color: transparent;
+        }
+    }
     // ! タブレットのレスポンシブ対応
     @media(max-width: 768px) {
         .member_content {
