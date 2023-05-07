@@ -23,4 +23,13 @@ class PagesController < ApplicationController
   # * 山本のプロフィールページ
   def yamamoto_page
   end
+
+  # ! My_Closetページ
+  # * サービス紹介ページ
+  def my_closet_service
+  end
+
+  # * Q&Aページ
+  def my_closet_FAQ
+  end
 end
