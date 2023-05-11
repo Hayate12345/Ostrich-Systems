@@ -20,6 +20,12 @@ Rails.application.routes.draw do
   # * よくあるご質問ページ
   get "my_closet/faq", to: "pages#my_closet_faq"
 
+  # ! ダチョウT_shirtページ
+  # * サービス紹介ページ
+  get "t_shirt/service", to: "pages#t_shirt_service"
+  # * よくあるご質問ページ
+  get "t_shirt/faq", to: "pages#t_shirt_faq"
+
   # ! 採用ページ
   get "recruit", to: "pages#recruit"
 end

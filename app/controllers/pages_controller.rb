@@ -34,6 +34,14 @@ class PagesController < ApplicationController
   end
 
   # ! ダチョウTシャツページ
+  # * サービス紹介ページ
+  def t_shirt_service
+  end
+  
+  # * Q&Aページ
+  def t_shirt_faq
+  end
+
   # ! 採用ページ
   def recruit
   end
