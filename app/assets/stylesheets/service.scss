@@ -1,5 +1,5 @@
 #catch_copy {
-    background-image: url("/assets/service/img_4.jpg");
+    background-image: url("/assets/service/img_3.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -26,12 +26,13 @@
     .card-effect {
         box-shadow: var(--box-shadow);
         background-color: #fff;
-        padding: 25px;
+        padding: 10px 25px;
         transition: all 0.35s ease;
         img {
             height: 380px;
             object-fit: cover;
         }
+        border-radius: 10px;
         // ! タブレットのレスポンシブ対応
         @media(max-width:768px) {
             img {
@@ -96,6 +97,10 @@
     padding-top: 120px;
     padding-bottom: 120px;
     background-color: #ffffff;
+    .function {
+        border-radius: 10px;
+        box-shadow: var(--box-shadow);
+    }
 }
 
 // ! reviewセクション
