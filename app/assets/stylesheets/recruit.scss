@@ -1,8 +1,22 @@
 #recruit {
-    .member_content {
+    .recruit-content {
         padding: 80px 70px;
         border-radius: 10px;
         box-shadow: var(--box-shadow);
+    }
+    .recruit-menu {
+        h4 {
+            border-radius: 5px;
+            box-shadow: var(--box-shadow);
+        }
+    }
+    .d-flex {
+        border: 0.5px solid var(--bg);
+        margin-top: 1px;
+        border-radius: 5px;
+    }
+    .table-menu {
+        background-color: var(--bg);
     }
     img {
         border-radius: 5px;
