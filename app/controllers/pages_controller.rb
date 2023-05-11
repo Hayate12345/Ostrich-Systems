@@ -32,4 +32,9 @@ class PagesController < ApplicationController
   # * Q&Aページ
   def my_closet_faq
   end
+
+  # ! ダチョウTシャツページ
+  # ! 採用ページ
+  def recruit
+  end
 end
