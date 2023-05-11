@@ -17,4 +17,6 @@ Rails.application.routes.draw do
   # ! My_closetページ
   # * サービス紹介ページ
   get "my_closet/service", to: "pages#my_closet_service"
+  # * よくあるご質問ページ
+  get "my_closet/faq", to: "pages#my_closet_faq"
 end

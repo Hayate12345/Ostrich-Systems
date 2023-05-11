@@ -30,6 +30,6 @@ class PagesController < ApplicationController
   end
 
   # * Q&Aページ
-  def my_closet_FAQ
+  def my_closet_faq
   end
 end
