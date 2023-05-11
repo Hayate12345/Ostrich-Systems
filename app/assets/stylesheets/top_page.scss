@@ -43,15 +43,21 @@
     padding-top: 120px;
     padding-bottom: 120px;
     background-color: var(--bg);
+    a {
+        color: var(--dark);
+        text-decoration: none;
+    }
     .card-effect {
         box-shadow: var(--box-shadow);
         background-color: #fff;
-        padding: 25px;
+        padding: 10px 25px;
         transition: all 0.35s ease;
         img {
             height: 380px;
             object-fit: cover;
+            border-radius: 5px;
         }
+        border-radius: 10px;
         // ! タブレットのレスポンシブ対応
         @media(max-width:768px) {
             img {
@@ -67,6 +73,7 @@
     .card-effect:hover {
         box-shadow: none;
         transform: translateY(5px);
+        border-radius: 10px;
     }
     .iconbox {
         width: 54px;
@@ -156,15 +163,17 @@
     .team-member {
         border-radius: 10px;
         background-color: #ffffff;
-        padding: 20px 10px;
+        padding: 20px 30px;
         img {
             width: 125px;
             height: 125px;
             border-radius: 100px;
+            object-fit: cover;
         }
         img:hover {
             transform: scale(1.1);
             transition-duration: 0.2s;
+            object-fit: cover;
         }
     }
     .social-icons {
