@@ -29,7 +29,7 @@
 /config/master.key
 
 # storage relief
-/app/assets/images
+*.mp4
 /public
 /node_modules
 /yarn-error.log
