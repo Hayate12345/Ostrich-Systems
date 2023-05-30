@@ -37,9 +37,10 @@ class PagesController < ApplicationController
   # * サービス紹介ページ
   def t_shirt_service
   end
-  
-  # * Q&Aページ
-  def t_shirt_faq
+
+  # ! ダチョウ蒸しパンページ
+  # * サービス紹介ページ
+  def musipan_servise
   end
 
   # ! 採用ページ

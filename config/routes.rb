@@ -23,8 +23,9 @@ Rails.application.routes.draw do
   # ! ダチョウT_shirtページ
   # * サービス紹介ページ
   get "t_shirt/service", to: "pages#t_shirt_service"
-  # * よくあるご質問ページ
-  get "t_shirt/faq", to: "pages#t_shirt_faq"
+
+  # ! ダチョウ蒸しパンページ
+  get "musipan/service", to: "pages#musipan_service"
 
   # ! 採用ページ
   get "recruit", to: "pages#recruit"
