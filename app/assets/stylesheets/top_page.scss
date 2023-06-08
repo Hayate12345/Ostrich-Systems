@@ -154,11 +154,6 @@
             border-radius: 100px;
             object-fit: cover;
         }
-        img:hover {
-            transform: scale(1.1);
-            transition-duration: 0.2s;
-            object-fit: cover;
-        }
     }
     .social-icons {
         display: flex;
