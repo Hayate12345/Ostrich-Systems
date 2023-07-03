@@ -132,3 +132,10 @@
     padding-bottom: 120px;
     background-color: var(--bg);
 }
+
+.my_closet {
+    background-image: url("/assets/service/my_closet.png");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
