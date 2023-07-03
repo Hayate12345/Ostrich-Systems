@@ -30,7 +30,6 @@
 
 # storage relief
 *.mp4
-/public
 /node_modules
 /yarn-error.log
 yarn-debug.log*
