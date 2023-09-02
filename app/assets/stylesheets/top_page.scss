@@ -1,3 +1,43 @@
+// ! original
+// * モバイル
+@media (max-width: 768px) {
+    .flex1 {
+        width: 100%;
+    }
+    .flex2 {
+        width: 100%;
+    }
+    .flex3 {
+        width: 50%;
+    }
+}
+
+// * タブレット
+@media (min-width: 768px) and (max-width: 1280px) {
+    .flex1 {
+        width: 60%;
+    }
+    .flex2 {
+        width: 100%;
+    }
+    .flex3 {
+        width: 33.3%;
+    }
+}
+
+// * PC（大）
+@media (min-width: 1280px) {
+    .flex1 {
+        width: 35%;
+    }
+    .flex2 {
+        width: 50%;
+    }
+    .flex3 {
+        width: 25%;
+    }
+}
+
 // ! hereセクション
 .hero {
     .video-area {
@@ -41,23 +81,7 @@
         background-color: #fff;
         padding: 10px 25px;
         transition: all 0.35s ease;
-        img {
-            height: 380px;
-            object-fit: cover;
-            border-radius: 5px;
-        }
         border-radius: 10px;
-        // ! タブレットのレスポンシブ対応
-        @media(max-width:768px) {
-            img {
-                height: 280px;
-                object-fit: cover;
-            }
-        }
-        // ! スマホのレスポンシブ対応
-        @media(max-width:468px) {
-            margin-top: 10px;
-        }
     }
     .card-effect:hover {
         box-shadow: none;
@@ -159,22 +183,5 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        a {
-            width: 34px;
-            height: 34px;
-            background-color: var(--primary);
-            border: 2px solid var(--primary);
-            color: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 100px;
-            margin-left: 5px;
-            transition: all 0.4s ease;
-        }
-        a:hover {
-            color: var(--primary);
-            background-color: transparent;
-        }
     }
 }
