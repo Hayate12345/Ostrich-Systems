@@ -1,25 +1,22 @@
-# README
+# 「ダチョウシステムズ」公式サイト
+ダチョウシステムズの公式サイトです。サービス紹介、メンバー紹介などを掲載してみます。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## インストール方法
+以下のコマンドを使用してプロジェクトをインストールすることができます。
+```
+git clone https://github.com/Hayate12345/Ostrich-Systems.git
+cd Ostrich-Systems
+bundle install
+```
 
-Things you may want to cover:
+## 使用方法
+以下のコマンドを実行してアプリケーションを起動します。
+```
+rails s
+```
 
-* Ruby version
+## ライセンス
+このプロジェクトは [ダチョウシステムズ](LICENSE)の下で提供されています。
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# home-page
+- [公式ウェブサイト](#)
