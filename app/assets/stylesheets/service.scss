@@ -18,6 +18,15 @@
     z-index: -1;
 }
 
+#catch_copy2 {
+    background-image: url("/assets/service/my_closet.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+
 // ! introductionセクション
 #introduction {
     padding-top: 120px;

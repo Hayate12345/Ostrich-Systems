@@ -21,12 +21,12 @@ body {
 }
 
 #header {
-    .company {
-        font-size: 23px;
-    }
     a {
         color: white;
         text-decoration: none;
+        .company {
+            font-size: 16px;
+        }
     }
 }
 
